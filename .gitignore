@@ -1,0 +1,39 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pipenv and poetry files
+Pipfile.lock
+poetry.lock
+
+# Environment variables
+*.env
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Test and coverage output
+*.coverage
+*.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Docker files
+.docker/
+docker-compose.override.yml
